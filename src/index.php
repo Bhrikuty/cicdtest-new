@@ -17,7 +17,7 @@
             <div class="hero-unit">
                 <h1>Simple PHP App</h1>
                 <h2>Congratulations</h2>
-                <p>This is where buildspec file is coming from the template itself. Today is 29th march 2020. version 2</p>
+                <p>This is where buildspec file is coming from the template itself. Today is 29th march 2020. version 3</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
